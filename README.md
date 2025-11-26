@@ -27,10 +27,15 @@ mini-social-network/
 │
 ├── config/
 │   └── database.php           (Database connection)
+|
+|
 │
 ├── includes/
 │   ├── header.php             (HTML header)
-│   └── footer.php             (HTML footer)
+│
+|
+|
+|   └── footer.php             (HTML footer)
 │
 ├── css/
 │   └── style.css              (All styles)
