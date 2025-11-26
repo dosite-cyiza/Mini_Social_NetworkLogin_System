@@ -14,7 +14,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     // Validation
 
-    if(empty($email) || empty($usenrame)|| empty($password) || empty($confirm_password)){
+    if(empty($email) || empty($username)|| empty($password) || empty($confirm_password)){
         $errors[] = "All fields are required";
     }
 
